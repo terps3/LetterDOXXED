@@ -8,6 +8,6 @@ g <- readRDS("movie_graph_full.rds")
 print(g)
 
 # Export to Gephi format
-write_graph(g, "movie_graph_gephi.graphml", format = "graphml")
+# write_graph(g, "movie_graph_gephi.graphml", format = "graphml")
 
 print("Graph exported for Gephi! File: movie_graph_gephi.graphml")
