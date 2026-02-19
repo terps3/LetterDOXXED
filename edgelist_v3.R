@@ -95,9 +95,7 @@ saveRDS(g, "movie_graph_full.rds")
 
 # This is what you need for Gephi
 write_graph(g, "movie_graph_gephi.graphml", format = "graphml")
-}
-
-# Remove isolated vertices
+  
 summary(g)
 }
 
